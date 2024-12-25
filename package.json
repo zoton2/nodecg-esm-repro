@@ -1,0 +1,16 @@
+{
+  "name": "nodecg-esm-repro",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b tsconfig.json"
+  },
+  "devDependencies": {
+    "@nodecg/types": "^2.3.2",
+    "@tsconfig/node22": "^22.0.0",
+    "typescript": "^5.7.2"
+  },
+  "nodecg": {
+    "compatibleRange": "^2.3.0"
+  }
+}
